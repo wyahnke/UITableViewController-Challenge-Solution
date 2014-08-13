@@ -1,5 +1,5 @@
 //
-//  WDYViewController.h
+//  WDYTableViewController.h
 //  UITableViewController Challenge Solution
 //
 //  Created by Wayne on 8/12/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface WDYViewController : UIViewController
+@interface WDYTableViewController : UITableViewController
 
 @end

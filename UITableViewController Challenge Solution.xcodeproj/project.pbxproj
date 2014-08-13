@@ -14,13 +14,13 @@
 		695813CD199ADE2600E02D01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 695813CC199ADE2600E02D01 /* main.m */; };
 		695813D1199ADE2600E02D01 /* WDYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 695813D0199ADE2600E02D01 /* WDYAppDelegate.m */; };
 		695813D4199ADE2600E02D01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 695813D2199ADE2600E02D01 /* Main.storyboard */; };
-		695813D7199ADE2600E02D01 /* WDYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 695813D6199ADE2600E02D01 /* WDYViewController.m */; };
 		695813D9199ADE2600E02D01 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 695813D8199ADE2600E02D01 /* Images.xcassets */; };
 		695813E0199ADE2600E02D01 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 695813DF199ADE2600E02D01 /* XCTest.framework */; };
 		695813E1199ADE2600E02D01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 695813C0199ADE2600E02D01 /* Foundation.framework */; };
 		695813E2199ADE2600E02D01 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 695813C4199ADE2600E02D01 /* UIKit.framework */; };
 		695813EA199ADE2600E02D01 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 695813E8199ADE2600E02D01 /* InfoPlist.strings */; };
 		695813EC199ADE2600E02D01 /* UITableViewController_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 695813EB199ADE2600E02D01 /* UITableViewController_Challenge_SolutionTests.m */; };
+		695813F7199ADED400E02D01 /* WDYTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 695813F6199ADED400E02D01 /* WDYTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		695813CF199ADE2600E02D01 /* WDYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDYAppDelegate.h; sourceTree = "<group>"; };
 		695813D0199ADE2600E02D01 /* WDYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDYAppDelegate.m; sourceTree = "<group>"; };
 		695813D3199ADE2600E02D01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		695813D5199ADE2600E02D01 /* WDYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDYViewController.h; sourceTree = "<group>"; };
-		695813D6199ADE2600E02D01 /* WDYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDYViewController.m; sourceTree = "<group>"; };
 		695813D8199ADE2600E02D01 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		695813DE199ADE2600E02D01 /* UITableViewController Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewController Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		695813DF199ADE2600E02D01 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		695813E7199ADE2600E02D01 /* UITableViewController Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewController Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		695813E9199ADE2600E02D01 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		695813EB199ADE2600E02D01 /* UITableViewController_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		695813F5199ADED400E02D01 /* WDYTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WDYTableViewController.h; path = ../WDYTableViewController.h; sourceTree = "<group>"; };
+		695813F6199ADED400E02D01 /* WDYTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WDYTableViewController.m; path = ../WDYTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				695813CF199ADE2600E02D01 /* WDYAppDelegate.h */,
 				695813D0199ADE2600E02D01 /* WDYAppDelegate.m */,
 				695813D2199ADE2600E02D01 /* Main.storyboard */,
-				695813D5199ADE2600E02D01 /* WDYViewController.h */,
-				695813D6199ADE2600E02D01 /* WDYViewController.m */,
+				695813F5199ADED400E02D01 /* WDYTableViewController.h */,
+				695813F6199ADED400E02D01 /* WDYTableViewController.m */,
 				695813D8199ADE2600E02D01 /* Images.xcassets */,
 				695813C7199ADE2600E02D01 /* Supporting Files */,
 			);
@@ -251,8 +251,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				695813CD199ADE2600E02D01 /* main.m in Sources */,
+				695813F7199ADED400E02D01 /* WDYTableViewController.m in Sources */,
 				695813D1199ADE2600E02D01 /* WDYAppDelegate.m in Sources */,
-				695813D7199ADE2600E02D01 /* WDYViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
