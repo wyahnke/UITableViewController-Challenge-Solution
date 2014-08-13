@@ -57,7 +57,7 @@
     if (section == 0) {
         return 2;
     }
-    if (section == 1) {
+    else if (section == 1) {
         return 1;
     }
     else {
@@ -71,17 +71,17 @@
     
     // Configure the cell...
     
-    if (indexPath.section == 1) {
+    if (indexPath.section == 0) {
         cell.textLabel.text = @"I am in section 0";
         cell.backgroundColor = [UIColor redColor];
     }
-    if (indexPath.section == 2) {
+    else if (indexPath.section == 1) {
         cell.textLabel.text = @"another section";
         cell.backgroundColor = [UIColor blueColor];
     
     }
     else {
-        cell.textLabel.text = @"Cell %i";
+        cell.textLabel.text = [NSString stringWithFormat:@"Cell #: %i", indexPath.row];
         cell.backgroundColor = [UIColor greenColor];
     }
     
